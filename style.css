@@ -11,6 +11,14 @@ ol li {
 #table {
     line-height:200%
 }
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого ячеек */
+   }
+   TH {
+    text-align: left; /* Выравнивание по левому краю */
+    background: black; /* Цвет фона */
+    color: white; /* Цвет текста */
+   }
 footer {
     padding-top: 3px;
     padding-bottom: 3px;
